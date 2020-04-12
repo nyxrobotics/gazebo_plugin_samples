@@ -1,0 +1,25 @@
+<package>
+  <name>gazebo_plugin_samples</name>
+  <version>1.0.0</version>
+  <description>
+     Sample launch files for testing gazebo plugins.
+  </description>
+  <author>nyxrobotics</author>
+  <author email="nyxrobotics00@gmail.com">nyxrobotics</author>
+  <maintainer email="nyxrobotics00@gmail.com">nyxrobotics</maintainer>
+  <license>Apache 2.0</license>
+  <url type="website">http://</url>
+  <url type="repository">https://github.com/nyxrobotics/gazebo_plugin_samples</url>
+  <url type="bugtracker">https://github.com/nyxrobotics/gazebo_plugin_samples/issues</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>urdf</build_depend>
+  <build_depend>xacro</build_depend>
+
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+
+  <test_depend>rostest</test_depend>
+  <test_depend>roslaunch</test_depend>
+</package>
