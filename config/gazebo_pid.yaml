@@ -1,0 +1,24 @@
+
+gazebo_ros_control:
+  pid_gains:
+    right_pad1_joint:
+      p: 3.35
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    right_pad2_joint:
+      p: 3.35
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    right_pad3_joint:
+      p: 3.35
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
